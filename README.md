@@ -22,8 +22,9 @@ cd notes-app
 ```
 
 ### 2. Build & Run dengan Docker Compose
-copy .env.example rename to .env
 ```bash
+copy .env.exampe rename to .env
+
 docker-compose up --build
 ```
 
