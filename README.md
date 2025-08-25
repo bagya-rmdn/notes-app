@@ -27,6 +27,7 @@ docker-compose up --build
 ```
 
 ### 3. Akses Database
+*Note: Jika sudah selesai build docker akses database sebagai berikut*
  - Host: host.docker.internal
  - Port: 5433 
  - User: postgres 
