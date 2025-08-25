@@ -1,0 +1,25 @@
+app:
+  swagger:
+    title: Notes  App
+    desc: Notes  App Documentation
+    version: 0.0.1
+  jwt:
+    secret: ${JWT_SECRET_KEY}
+
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://${POSTGRES_HOST}:${POSTGRES_PORT}/${POSTGRES_DB}
+    username: ${POSTGRES_USER}
+    password: ${POSTGRES_PASSWORD}
+    hikari:
+      connection-timeout: 20000
+      maximum-pool-size: 10
