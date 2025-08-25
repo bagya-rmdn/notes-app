@@ -7,7 +7,7 @@ Dijalankan menggunakan **Docker Compose** sehingga mudah di-setup tanpa konfigur
 
 ## 🚀 Tech Stack
 - Java 17
-- Spring Boot
+- Spring Boot ( Docs Swagger & Security JWT )
 - PostgreSQL
 - Docker & Docker Compose
 
