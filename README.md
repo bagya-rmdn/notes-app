@@ -17,7 +17,7 @@ Dijalankan menggunakan **Docker Compose** sehingga mudah di-setup tanpa konfigur
 
 ### 1. Clone Repository
 ```bash
-git clone <repo-url>
+git clone https://github.com/bagya-rmdn/notes-app.git
 cd notes-app
 ```
 
